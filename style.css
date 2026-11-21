@@ -1,0 +1,443 @@
+body {
+    font-family: "Instrument Serif", serif;
+    font-size: 22px; color: white;
+    letter-spacing: 2px;
+    background-color: #7c5322;
+}
+h1,h2,h3,h4,h6 {
+    font-family: "Noto Serif Display", serif;
+}
+h1 {
+    font-size: 80px;
+    text-transform: uppercase;
+    
+}
+h2 {
+    font-size: 65px;
+    text-transform: uppercase;
+}
+h4 {
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+h5 {
+    font-family: "Instrument Serif", serif;
+    font-size: 26px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.4;
+}
+section {
+    justify-content: center;
+    height: fit-content;
+    padding: 50px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.navbar-expand-md {
+    margin: -50px 200px 100px 200px;
+}
+.navbar-toggler {
+    border-color: #ffffff;
+}
+.navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+}
+.search-btn {
+    background-color: transparent;
+    color: #7c5322;
+    border-radius: 8px;
+    border: 1px solid #7c5322;
+}
+.search-btn:hover {
+    background-color: #7c5322;
+    color: white;
+    border: none;
+}
+.p-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 100px 200px 100px 200px;
+    
+}
+#s1 {
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.6), rgb(1 91 129 / 0.4)),
+     url("./Images/Best\ hotel1.png");
+    
+}
+.h-title {
+    width: 60%;
+}
+.h-images {
+    width: 40%;
+}
+.h-images > div {
+    display: flex;
+}
+#h-img-1 {
+    justify-content: flex-end;
+}
+#h-img-2 {
+    justify-content: center;
+}
+#h-img-3 {
+    justify-content: center;
+}
+.h-images img {
+    mask-image: url(./Images/Ellipse1.svg);
+    object-fit: cover;
+    mask-position: center;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+}
+#h-img-3 > img {
+    margin-left: -150px;
+}
+.h-btn {
+    font-family: "Noto Serif Display", serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 600;
+    border: 0;
+    border-radius: 15px;
+    padding: 8px 30px;
+    margin-top: 20px;
+    box-shadow: 5px 8px 25px rgb(0, 0, 0);
+}
+.s2 {
+    background-image: linear-gradient(to left, rgb(0 0 0 / 0.6),
+        rgb(1 91 129 / 0.4)), url("/Images/Best\ hotel2.png");
+}
+.col-lg-4 > div {
+    background-color: rgb(0 0 0 / 0.5);
+}
+.feature {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.f1 {
+    background-image: url("/Images/Best\ rooms.png");
+}
+.f2 {
+    background-image: url("/Images/Best\ meals.png");
+}
+.f3 {
+    background-image: url("/Images/Spa&Care.png");
+}
+.hr1 {
+    position: absolute;
+    top: auto;
+    width: 100%;
+    margin: 0;
+    border: none;
+    border-top: 5px double #ffffff;
+    color: #ffffff;
+    overflow: visible;
+    text-align: center;
+    height: 3px;
+}
+.hr1:after {
+    background: #7c5322;
+    content: "§";
+    padding: 0 4px;
+    position: relative;
+    top: -18px;
+}
+.hr2 {
+    margin: 0;
+    border: none;
+    border-top: 5px double white;
+    color: #ffffff;
+    overflow: visible;
+    text-align: center;
+    height: 3px;
+}
+
+.hr2:after {
+    background: #7c5322;
+    content: "§";
+    padding: 0 4px;
+    position: relative;
+    top: -18px;
+}
+.s3 {
+    background-image: linear-gradient(to right, rgb(0 0 0 / 0.8), rgb(1 91 129 / 0.4)),
+        url("/Images/Best\ hotel3.png");
+}
+.f-container {
+    display: grid;
+    grid-template: 0.5fr 50px 1fr 0.5fr/ repeat(3, 1fr);
+    row-gap: 30px;
+}
+.f-title {
+    grid-column: 1 / 4;
+}
+.div1 {
+    grid-column: span 2;
+    background-color: #7c5322;
+}
+.div2 {
+    background-color: #015b81;
+}
+.qlinks {
+    text-align: center;
+}
+.qlinks > ul {
+    padding: 0;
+    list-style-type: none;
+}
+.qlinks > div {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+.qlinks svg {
+    stroke: #7c5322;
+    fill: #7c5322;
+    
+}
+.cright {
+    grid-column: 1 /4;
+    text-align: center;
+}
+@media (min-width: 1401px) {
+    .h-btn1 {
+        display: none;
+    }
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .navbar-expand-md {
+        margin: -50px 50px 50px 50px;
+    }
+    .p-container {
+        margin: 50px 50px 0 50px;
+    }
+    #h-img-2>img {
+       margin-left: -5%;
+    }
+    .h-btn1 {
+        display: none;
+    }
+}
+@media (min-width: 991px) and (max-width: 1200px) {
+    .navbar-expand-md {
+        margin: -50px 50px 50px 50px;
+    }
+    .p-container {
+        margin: 30px 50px 0 50px;
+    }
+    #h-img-2 > img {
+        margin-left: -15%;
+    }
+    .h-btn1 {
+        display: none;
+    }
+
+}
+@media (min-width: 908px) and (max-width: 990px) {
+    .navbar-expand-md {
+        margin: -50px 30px 50px 30px;
+    }
+    .p-container {
+        margin: 30px 30px 0 30px;
+    }
+    .h-title {
+        width: 50%;
+    }
+    .h-images {
+        width: 50%;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h5 {
+        font-size: 24px;
+    }
+    #h-img-1 > img {
+        width: 300px;
+    }
+    #h-img-2 > img {
+        width: 200px;
+    }
+    #h-img-3 > img {
+        width: 130px;
+    }
+    .h-btn {
+        font-size: 20px;
+        padding: 5px 20px;
+    }
+    .h-btn1 {
+        display: none;
+    }
+}
+@media (min-width: 575px) and (max-width: 907px) {
+    .navbar-expand-md {
+        margin: -50px 30px 50px 30px;
+    }
+    .p-container {
+        flex-direction: column;
+        margin: 30px 30px 30px 30px;
+    }
+    .h-title {
+        width: 100%;
+    }
+    .h-images {
+        width: 100%;
+    }
+    h1 {
+        font-size: 65px;
+    }
+    h2 {
+        font-size: 55px;
+    }
+    h5 {
+        font-size: 24px;
+    } 
+    #h-img-1 > img {
+        margin-right: 10%;
+    }
+    .h-btn {
+        display: none;
+    } 
+    .h-btn1 {
+        font-family: "Noto Serif Display", serif;
+        text-transform: uppercase;
+        font-size: 22px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 15px;
+        padding: 8px 30px;
+        margin-top: 20px;
+        box-shadow: 5px 8px 25px rgb(0, 0, 0);
+    }
+   .f-container {
+       display: grid;
+       grid-template: 0.5fr 50px 1fr 0.5fr/ 0.5fr 1fr 0.5fr;
+       row-gap: 30px;
+   }
+
+   .f-title {
+       grid-column: 1 / 4;
+   }
+
+   .div1 {
+       grid-column: span 2;
+       background-color: #7c5322;
+   }
+
+   .div2 {
+       background-color: #015b81;
+   }
+
+   .qlinks {
+       text-align: start;
+   }
+
+   .qlinks>ul {
+       padding: 0;
+       list-style-type: none;
+   }
+   .qlinks>div {
+       justify-content: start;
+   }
+   .logo {
+    padding-right: 20px;
+   }
+
+   .cright {
+       grid-column: 1 /4;
+       text-align: center;
+   }
+}
+@media (min-width: 10px) and (max-width: 574px) {
+    .navbar-expand-md {
+        margin: -50px 0 50px 0px;
+    }
+    .p-container {
+        flex-direction: column;
+        margin: 20px 10px 0 10px;
+    }
+    .h-title {
+        width: 100%;
+    } 
+    .h-images {
+        width: 100%;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    
+    h5 {
+        font-size: 22px;
+    }
+    #h-img-1>img {
+        width: 300px;
+    }
+     #h-img-2>img {
+        width: 200px;
+        margin-left: -12%;
+    }
+    
+    #h-img-3>img {
+        width: 150px;
+    }
+    .h-btn {
+        display: none;
+    }
+    
+    .h-btn1 {
+        font-family: "Noto Serif Display", serif;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 600;
+        border: 0;
+        border-radius: 15px;
+        padding: 8px 30px;
+        margin-top: 20px;
+        box-shadow: 5px 8px 25px rgb(0, 0, 0);
+    }
+   .f-container {
+       display: grid;
+       grid-template: 0.5fr 30px repeat(3, auto) 0.5fr/ repeat(3, 1fr);
+       row-gap: 15px;
+   }
+
+   .f-title {
+       grid-column: 1 / 4;
+   }
+
+   .div1 {
+       grid-column: span 2;
+       background-color: #7c5322;
+   }
+
+   .div2 {
+       background-color: #015b81;
+   }
+
+   .qlinks {
+       grid-column: 1/ 4;
+       text-align: start;
+   }
+
+   .qlinks > ul {
+       padding: 0;
+       list-style-type: none;
+   }
+   .qlinks>div {
+       justify-content: start;
+   }
+   .logo {
+    grid-column: 1 / 3;
+   }
+
+   
+}
