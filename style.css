@@ -109,7 +109,7 @@ section {
 }
 .s2 {
     background-image: linear-gradient(to left, rgb(0 0 0 / 0.6),
-        rgb(1 91 129 / 0.4)), url("/Images/Best\ hotel2.png");
+        rgb(1 91 129 / 0.4)), url("./Images/Best\ hotel2.png");
 }
 .col-lg-4 > div {
     background-color: rgb(0 0 0 / 0.5);
@@ -121,13 +121,13 @@ section {
     background-repeat: no-repeat;
 }
 .f1 {
-    background-image: url("/Images/Best\ rooms.png");
+    background-image: url("./Images/Best\ rooms.png");
 }
 .f2 {
-    background-image: url("/Images/Best\ meals.png");
+    background-image: url("./Images/Best\ meals.png");
 }
 .f3 {
-    background-image: url("/Images/Spa&Care.png");
+    background-image: url("./Images/Spa&Care.png");
 }
 .hr1 {
     position: absolute;
@@ -167,7 +167,7 @@ section {
 }
 .s3 {
     background-image: linear-gradient(to right, rgb(0 0 0 / 0.8), rgb(1 91 129 / 0.4)),
-        url("/Images/Best\ hotel3.png");
+        url("./Images/Best\ hotel3.png");
 }
 .f-container {
     display: grid;
